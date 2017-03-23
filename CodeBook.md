@@ -97,4 +97,4 @@ Code for the above task:
 
 	Fdata <- melt(Mdata2) # convert to skinny and tall data frame 
 	FinalData <- dcast(Fdata, variable ~ Activities,fun.aggregate = mean) # widen data format with mean values
-	write.table(FinalData,file = "tidydata.txt")
+	write.table(FinalData,file = "tidydata.txt",row.name=FALSE)
