@@ -47,4 +47,4 @@ Mdata2 <- cbind(Mdata1,dfActivities) #combine activity column to the data
 #done changing activities from integer to descriptive char values
 Fdata <- melt(Mdata2) # convert to skinny and tall data frame 
 FinalData <- dcast(Fdata, variable ~ Activities,fun.aggregate = mean) # widen data format with mean values
-write.table(FinalData,file = "tidydata.txt")
+write.table(FinalData,file = "tidydata.txt",row.name=FALSE)
