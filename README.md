@@ -8,9 +8,9 @@ Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 This is a collection of data from the accelerometers from the Samsung Galaxy S smartphone
 Combining and merging data from 5 raw text files has resulted into a data frame with a dimension of 10299 observation of 562 variables
 
-Result:
+Result (tidydata.txt)
 After cleaning and reshaping the raw data (tidydata.txt)
-The data frame dimension is now 66 observations of 7 variables (using the mean function).
+The data frame dimension is now 180 observations of 81 variables (using the mean function).
 
 CodeBook.md will describe how I cleaned & reshaped the raw data and the variables involved.
 
