@@ -8,7 +8,7 @@ Read all 7 raw text files
 4) y_test.txt (corresponding Activity code column for test data)
 5) features.txt (561 column names)
 6) subject_train.txt (subject values for training)
-7) subject_test.txt (subject values for testing
+7) subject_test.txt (subject values for testing)
 
 Cbind Activity and subject code column to corresponding data
 
